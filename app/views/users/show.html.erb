@@ -10,6 +10,9 @@
       <%= render 'shared/stats' %>
     </section>
   </aside>
+  <section class="micropost_form">
+    <%= render 'shared/micropost_form' %>
+  </section>
   <div class="col-md-8">
     <%= render 'follow_form' if logged_in? %>
     <% if @user.microposts.any? %>

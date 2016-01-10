@@ -18,6 +18,9 @@
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation, class: 'form-control' %>
 
+      <%= f.label :date_of_birth %>
+      <%= f.date_field :date_of_birth, class: 'form-control' %>
+
       <%= f.submit "Create my account", class: "btn btn-primary" %>
     <% end %>
   </div>

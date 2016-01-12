@@ -1,0 +1,8 @@
+<%= simple_form_for(@group, html: { class: 'form-horizontal' }) do |f| %>
+	<%= f.input :title, label: "Group Title" %>
+	<%= f.input :description, label: "Group Description Title" %>
+	<%= f.input :url, label: "Link to Group" %>
+	<button>
+		<%= f.button :submit %>
+	</button>
+<% end %>

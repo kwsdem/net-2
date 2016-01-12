@@ -16,6 +16,7 @@ gem 'turbolinks',   '2.3.0'
 gem 'fog', '~> 1.36.0'
 gem 'jbuilder',     '2.2.3'
 gem 'net-ssh'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'sdoc',         '0.4.0', group: :doc
 
 group :development, :test do

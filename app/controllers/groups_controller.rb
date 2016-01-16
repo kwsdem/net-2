@@ -42,7 +42,7 @@ class GroupsController < ApplicationController
 	private
 
 	def groups_params
-		params.require(:group).permit(:title, :url)
+		params.require(:group).permit(:title, :description, :group_id, :url)
 	end
 
 	def find_group

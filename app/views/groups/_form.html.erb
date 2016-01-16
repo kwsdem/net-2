@@ -1,4 +1,6 @@
+
 <%= simple_form_for(@group, html: { class: 'form-horizontal' }) do |f| %>
+	<%= f.collection_select :group_id, Group.all, :id, :title, {promt: "Choose a group"} %>
 	<%= f.input :title, label: "Group Title" %>
 	<%= f.input :description, label: "Group Description Title" %>
 	<%= f.input :url, label: "Link to Group" %>
